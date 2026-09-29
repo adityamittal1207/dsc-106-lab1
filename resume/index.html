@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Resume</title>
+</head>
+<body>
+    <nav><a href="https://github.com/adityamittal1207" target="_blank">GitHub</a> <a href="../index.html">Home</a> <a href="../contact/index.html">Contact Me</a> <a href="../projects/index.html">Projects</a> <a href="../resume/index.html">Resume</a></nav>
+
+    <header>
+        <h1>Aditya Mittal</h1>
+        <p>
+            <a href="mailto:admittal@ucsd.edu">admittal@ucsd.edu</a> |
+            <a href="https://linkedin.com/in/adityamittal1207" target="_blank">linkedin.com/in/adityamittal1207</a> |
+            <a href="https://github.com/adityamittal1207" target="_blank">github.com/adityamittal1207</a>
+        </p>
+    </header>
+
+    <section>
+        <h2>Education</h2>
+        <article>
+            <header>
+                <h3>University of California, San Diego</h3>
+                <p>Bachelor of Science in Data Science, GPA 3.98 &mdash; La Jolla, CA</p>
+                <p><time datetime="2025-09">Sep 2025</time> &ndash; <time datetime="2028-03">Mar 2028</time></p>
+            </header>
+            <ul>
+                <li><strong>Relevant coursework:</strong> Data Structures &amp; Algorithms, Applied ML, Econometrics/Statistics, Linear Algebra</li>
+                <li><strong>Honors:</strong> SAT 1560/1600, National Merit Semi-Finalist, USACO Silver Division</li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+
+        <article>
+            <header>
+                <h3>Software Engineer Intern (Data, AI &amp; ML)</h3>
+                <p>Hyland Software &mdash; Westlake, OH</p>
+                <p><time datetime="2026-06">Jun 2026</time> &ndash; Present</p>
+            </header>
+            <ul>
+                <li>Built a RAG and natural-language-to-SQL financial assistant serving 20 analysts self-serve answers instead of manual data pulls.</li>
+                <li>Cut retrieval latency roughly 3x by replacing a brute-force scan with an IVF-PQ FAISS index over 50M+ records.</li>
+                <li>Translated analyst questions into multi-join SQL across 100+ tables, cutting turnaround from 10 minutes to 5 seconds.</li>
+                <li>Reached 95%+ query accuracy by partnering with finance stakeholders to define and validate the right metrics.</li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <h3>Co-Founder &amp; CTO</h3>
+                <p><a href="https://foundersinc.com" target="_blank">Bridge (Founders Inc. Canopy Accelerator)</a> &mdash; San Diego, CA</p>
+                <p><time datetime="2025-10">Oct 2025</time> &ndash; Present</p>
+            </header>
+            <ul>
+                <li>Built a real-time screen-capture evaluation pipeline over WebSockets, scoring candidate code at sub-second latency.</li>
+                <li>Reconstructed candidate workflows via Tesseract OCR and a computer-vision frame-diffing model, cutting evaluation time 50%+.</li>
+                <li>Wired Pinecone (HNSW), ElevenLabs voice interviews, and Stripe billing on Node/Mongo for 12 companies.</li>
+                <li>Generated take-home assessments from job descriptions via LangChain, authoring each in under 1.5 minutes instead of hours.</li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <h3>Research Intern</h3>
+                <p>Carnegie Mellon University Center for AI and Patent Analysis &mdash; Pittsburgh, PA</p>
+                <p><time datetime="2024-04">Apr 2024</time> &ndash; <time datetime="2025-09">Sep 2025</time></p>
+            </header>
+            <ul>
+                <li>Built a LangGraph pipeline chunking and summarizing thousands of bills, cutting manual analysis time 90%.</li>
+                <li>Built a hybrid BM25 and dense retriever with cross-encoder re-ranking, lifting recall@100 by 5 points over BM25 alone.</li>
+                <li>Shipped an evaluation harness verifying claims against retrieved source text, cutting hallucinated outputs roughly 30%.</li>
+                <li>Distributed ingestion across async workers, processing 10k+ documents per run with checkpointing and retries.</li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <h3>Lead Engineer</h3>
+                <p>Millburn Robotics &mdash; Millburn, NJ</p>
+                <p><time datetime="2022-09">Sep 2022</time> &ndash; <time datetime="2025-06">Jun 2025</time></p>
+            </header>
+            <ul>
+                <li>Wrote a C++17 autonomous stack (Pure Pursuit and PID) at 100 Hz, winning 90% of autonomous periods at Worlds.</li>
+                <li>Fused wheel odometry and IMU via a complementary filter, with trapezoidal profiling for sub-2cm localization.</li>
+                <li>Cut in-match failures under 3% by analyzing match logs to surface, prioritize, and engineer out top failure modes.</li>
+                <li>Led a 15-engineer team to the VEX World Championships, placing top 40 of 800 finalists from 20,000+ teams.</li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <h3>Backend Engineer</h3>
+                <p>VidVeda HealthCare &mdash; Short Hills, NJ</p>
+                <p><time datetime="2023-04">Apr 2023</time> &ndash; <time datetime="2025-05">May 2025</time></p>
+            </header>
+            <ul>
+                <li>Built a Flask/PostgreSQL REST API for consults and scheduling, scaling to 1,000+ users via connection pooling.</li>
+                <li>Integrated Twilio/Vonage WebRTC video with JWT auth and idempotent booking to prevent double-scheduling.</li>
+                <li>Built an 80%-coverage pytest suite over database read/write and REST endpoints, gated in GitHub Actions CI.</li>
+                <li>Dockerized and deployed on AWS behind an ALB with health checks and ECS autoscaling, holding 99.9%+ uptime.</li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <article>
+            <header>
+                <h3>Invasive Species Risk Engine</h3>
+                <p>Python, FAISS, FastAPI, React &mdash; <a href="https://invasive-watch.vercel.app" target="_blank">invasive-watch.vercel.app</a></p>
+                <p><time datetime="2026-01">Jan 2026</time> &ndash; Present</p>
+            </header>
+            <ul>
+                <li>Ran FAISS (HNSW) similarity search over 96k+ precomputed species embeddings at under 50ms p95.</li>
+                <li>Fused GBIF, Open-Meteo, and Trefle feeds into a two-factor climate-and-biology risk model.</li>
+                <li>Cached climate and soil tiles and parallelized per-tile API calls to keep scans responsive under external rate limits.</li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <h3>OneTap NFC Data Interchange</h3>
+                <p>Flask, MySQL, AWS S3, NFC &mdash; <a href="https://onetaptech.org" target="_blank">onetaptech.org</a></p>
+                <p><time datetime="2023-09">Sep 2023</time> &ndash; <time datetime="2025-10">Oct 2025</time></p>
+            </header>
+            <ul>
+                <li>Built a Flask/MySQL backend for NFC tag provisioning, uploads, and analytics across 8 sites and 500+ users.</li>
+                <li>Streamed uploads to S3 via presigned URLs and offloaded analytics to an async worker queue.</li>
+                <li>Cut operational cost 33% versus the prior QR-based system, informed by weekly usage analytics.</li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <h3>Facial Recognition Attendance Kiosks</h3>
+                <p>TensorFlow, FaceNet, Django &mdash; <a href="https://github.com/millburnai/aisecurity_server" target="_blank">GitHub</a></p>
+                <p><time datetime="2022-10">Oct 2022</time> &ndash; <time datetime="2024-06">Jun 2024</time></p>
+            </header>
+            <ul>
+                <li>Built a FaceNet and MTCNN identity-verification pipeline serving 250+ students per day behind a Django API.</li>
+                <li>Quantized the embedding model for on-device inference, holding under 300ms end-to-end match latency.</li>
+                <li>Cached 512-dimensional face embeddings for fast cosine-match lookups, with a MERN admin dashboard.</li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2>Skills &amp; Interests</h2>
+        <ul>
+            <li><strong>Languages &amp; Tools:</strong> Python, C++, Java, TypeScript, JavaScript, SQL, Git, Docker, CI/CD, Linux, Claude Code</li>
+            <li><strong>AI / ML / Retrieval:</strong> PyTorch, TensorFlow, FAISS, ElevenLabs, Pinecone, ChromaDB, LangChain, LangGraph</li>
+            <li><strong>Web &amp; Data:</strong> FastAPI, Flask, Django, Node.js, React, WebSockets, PostgreSQL, MySQL, MongoDB, Redis, AWS</li>
+            <li><strong>Interests:</strong> Model UN (2&times; Ivy top-3), poker, hiking every state's tallest peak, weightlifting, drums</li>
+        </ul>
+    </section>
+</body>
+</html>
