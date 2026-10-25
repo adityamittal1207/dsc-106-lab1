@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Invasive Species Risk Engine",
+    "year": "2026",
+    "image": "images/projects/invasive-watch.jpg",
+    "description": "A Python, FAISS, FastAPI and React app that runs HNSW similarity search over 96k+ species embeddings at under 50ms p95, fusing GBIF, Open-Meteo and Trefle feeds into a two-factor climate-and-biology risk model."
+  },
+  {
+    "title": "OneTap NFC Data Interchange",
+    "year": "2023",
+    "image": "images/projects/onetap.jpg",
+    "description": "A Flask/MySQL backend for NFC tag provisioning, uploads and analytics across 8 sites and 500+ users, streaming uploads to S3 via presigned URLs and cutting operational cost 33% versus the prior QR-based system."
+  },
+  {
+    "title": "Facial Recognition Attendance Kiosks",
+    "year": "2022",
+    "image": "images/projects/attendance-kiosk.jpg",
+    "description": "A FaceNet and MTCNN identity-verification pipeline serving 250+ students per day behind a Django API, with a quantized on-device model holding under 300ms end-to-end match latency."
+  },
+  {
+    "title": "RAG Financial Assistant (Hyland Software)",
+    "year": "2026",
+    "image": "images/projects/hyland.jpg",
+    "description": "A RAG and natural-language-to-SQL assistant for 20 analysts, using an IVF-PQ FAISS index over 50M+ records and multi-join SQL across 100+ tables to cut turnaround from 10 minutes to 5 seconds."
+  },
+  {
+    "title": "Real-Time Candidate Evaluation (Bridge)",
+    "year": "2025",
+    "image": "images/projects/bridge.jpg",
+    "description": "A real-time screen-capture evaluation pipeline over WebSockets that scores candidate code at sub-second latency, using Tesseract OCR and computer-vision frame diffing to cut evaluation time 50%+."
+  },
+  {
+    "title": "Bill Summarization Pipeline (CMU)",
+    "year": "2024",
+    "image": "images/projects/cmu.jpg",
+    "description": "A LangGraph pipeline chunking and summarizing thousands of bills, with a hybrid BM25 and dense retriever plus cross-encoder re-ranking, cutting manual analysis time 90%."
+  },
+  {
+    "title": "VEX Autonomous Stack (Millburn Robotics)",
+    "year": "2022",
+    "image": "images/projects/vex-robotics.jpg",
+    "description": "A C++17 autonomous stack (Pure Pursuit and PID) at 100 Hz with odometry and IMU sensor fusion, winning 90% of autonomous periods at the VEX World Championships."
+  },
+  {
+    "title": "Telehealth Scheduling API (VidVeda HealthCare)",
+    "year": "2023",
+    "image": "images/projects/vidveda.jpg",
+    "description": "A Flask/PostgreSQL REST API for consults and scheduling with WebRTC video and JWT auth, scaling to 1,000+ users and deployed on AWS ECS with 99.9%+ uptime."
+  },
+  {
+    "title": "DSC 106 Lab 1: Introduction to the Web Platform",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
+  },
+  {
+    "title": "DSC 106 Lab 2: Styling with CSS",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
+  },
+  {
+    "title": "DSC 106 Lab 3: Introduction to JS",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
+  },
+  {
+    "title": "DSC 106 Lab 4: JavaScript II",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
+  }
+]

@@ -140,3 +140,21 @@ section article ul {
 section li {
   margin-block: 0.3em;
 }
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#profile-stats dt {
+  grid-row: 1;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+}
+
+.projects img {
+  max-width: 100%;
+}
