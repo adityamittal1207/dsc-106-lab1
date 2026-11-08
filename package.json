@@ -1,0 +1,26 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityamittal1207/dsc-106-lab1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityamittal1207/dsc-106-lab1/issues"
+  },
+  "homepage": "https://github.com/adityamittal1207/dsc-106-lab1#readme",
+  "devDependencies": {
+    "elocuent": "^0.0.4"
+  }
+}
